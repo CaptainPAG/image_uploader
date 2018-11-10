@@ -1,6 +1,5 @@
 <template>
-  <div class="uploader">
-    <p>キタコレｗｗ楽しいね</p>
+  <div class="back">
     <form id= "upload" method="post" enctype="multipart/form-data">
       画像ファイル<input type="file" name="pic">
     <br>
@@ -10,7 +9,9 @@
 </template>
 
 <style>
-#upload {
-  margin: 0 auto;
+.back {
+  margin: 10px 0;
+  background-color: #aaeedd;
+  height: 100vh;
 }
 </style>
